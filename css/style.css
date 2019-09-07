@@ -5,11 +5,11 @@
 }
 
 .logo-ln {
-    font-weight: 800;
+    font-weight: 1000;
 }
 
-nav{
-    background-color: rgb(231, 74, 95);
+.navbar-custom {
+    background-color: #F2AA4CFF;
 }
 
 .main-article-title{
