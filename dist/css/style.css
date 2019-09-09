@@ -1,7 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo-ln {
@@ -12,7 +20,15 @@
     background-color: #F2AA4CFF;
 }
 
-.main-article-title{
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.main-article-title {
     font-size: 2em;
     font-weight: bold;
 }
@@ -43,6 +59,20 @@
 .sub-article-author{
     text-decoration: underline;
     font-size: 0.8em;
+}
+
+.post-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sub-post-title {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.article-title-welcome {
+    font-size: 1.2em;
 }
 
 .demo-link {
