@@ -79,7 +79,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <img class="img-responsive" width="100%" src="https://via.placeholder.com/800x500?text=post-img">
-                            <div class="col-md-8">
+                            <!-- <div class="col-md-8"> -->
                                 <span class="sub-article-date">SEP. 6, 2019</span>
                                 <br />
                                 <a style="text-decoration: none; color: rgba(0,0,0,0.8)" href="post-body.html">                                
@@ -91,11 +91,11 @@
                                 <span class="sub-article-category">Article Category</span>
                                 <br>
                                 <br>
-                            </div>
+                            <!-- </div> -->
                         </div>
                         <div class="col-md-6">
                             <img class="img-responsive" width="100%" src="https://via.placeholder.com/800x500?text=post-img">
-                            <div class="col-md-8">
+                            <!-- <div class="col-md-8"> -->
                                 <span class="sub-article-date">SEP. 6, 2019</span>
                                 <br />
                                 <a style="text-decoration: none; color: rgba(0,0,0,0.8)" href="post-body.html">
@@ -105,12 +105,14 @@
                                 <span class="sub-article-author">BY <span class="author-name">SAI KRISHNA</span></span>
                                 <br />
                                 <span class="sub-article-category">Article Category</span>
-                            </div>
+                                <br>
+                                <br>
+                            <!-- </div> -->
                         </div>
                         <div class="w-100"></div>
                         <div class="col-md-6">
                             <img class="img-responsive" width="100%" src="https://via.placeholder.com/800x500?text=post-img">
-                            <div class="col-md-8">
+                            <!-- <div class="col-md-8"> -->
                                 <span class="sub-article-date">SEP. 6, 2019</span>
                                 <br />
                                 <a style="text-decoration: none; color: rgba(0,0,0,0.8)" href="post-body.html">
@@ -120,12 +122,12 @@
                                 <span class="sub-article-author">BY <span class="author-name">SAI KRISHNA</span></span>
                                 <br />
                                 <span class="sub-article-category">Article Category</span>
-                                <br><br><br>
-                            </div>
+                                <br><br>
+                            <!-- </div> -->
                         </div>
                         <div class="col-md-6">
                             <img class="img-responsive" width="100%" src="https://via.placeholder.com/800x500?text=post-img">
-                            <div class="col-md-8">
+                            <!-- <div class="col-md-8"> -->
                                 <span class="sub-article-date">SEP. 6, 2019</span>
                                 <br />
                                 <a style="text-decoration: none; color: rgba(0,0,0,0.8)" href="post-body.html">
@@ -135,7 +137,7 @@
                                 <span class="sub-article-author">BY <span class="author-name">SAI KRISHNA</span></span>
                                 <br />
                                 <span class="sub-article-category">Article Category</span>
-                            </div>
+                            <!-- </div> -->
                         </div>
                         <div class="col-md-8 text-right">
                             <button type="button" class="btn btn-primary btn-lg">
@@ -154,7 +156,7 @@
                     <br>
                     <form class="form-inline my-2 my-lg-0">
                         <input type="text" placeholder="Search" class="form-control mr-sm-2">
-                        <button type="submit" class="btn btn-outline-dark my-2 my-sm-0">Search</button>
+                        <button type="button" class="btn btn-outline-dark my-2 my-sm-0">Search</button>
                     </form>
                     <br>
                     <br>
@@ -249,7 +251,26 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="text-right"><span class="demo-link">More></span></div>
+                    <!-- <div class="text-right"><span class="demo-link">More></span></div> -->
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="col-md-4">
                     <span class="sponsors">SPONSORS</span>
@@ -279,6 +300,10 @@
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!--Bootstrap-js-start-->
+        <!--Algolia-Search-start-->
+        <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+        <!--Algolia-Search-end-->
         <script src="js/script.js"></script>
+        <script src="js/search.js"></script>        
     </body>
 </html>
