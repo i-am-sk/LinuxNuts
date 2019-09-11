@@ -1,0 +1,34 @@
+languageCode: "en"
+title:        "LinuxNuts"
+baseURL:      "https://i-am-sk.github.io/LinuxNuts/"
+enableInlineShortcodes: true
+
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+
+buildDrafts: true
+buildFuture:            true
+enableRobotsTXT:        true
+metaDataFormat:         "html"
+disableKinds:           ["404", "taxonomy", "taxonomyTerm", "RSS"]
+blackfriday:
+  fractions:            false
+
+publishDir:             "_gh_pages"
+
+module:
+  mounts:
+    - source:           dist
+      target:           /dist
+    - source:           site/content
+      target:           content
+    - source:           site/data
+      target:           data
+    - source:           site/layouts
+      target:           layouts
+    - source:           site/static
+      target:           static
+
+params:
+  description:          "The best magazine site about technologies."
+  authors:              "Sai Krishna"

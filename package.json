@@ -11,6 +11,10 @@
   "license": "ISC",
   "homepage": "https://i-am-sk.github.io/LinuxNuts",
   "devDependencies": {
+    "eslint": "^6.3.0",
     "gh-pages": "^2.1.1"
+  },
+  "dependencies": {
+    "config-yml": "^0.10.3"
   }
 }
